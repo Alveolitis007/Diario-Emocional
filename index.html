@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<p style="font-size: 14px; color: gray;">
+Esta herramienta analiza frases del día para ayudar a reflexionar.
+No es un diagnóstico ni un consejo profesional.
+
+</p>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi día con IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+ <body>
+    <div class="container">
+        <h1>🧠 Mi diario emocional</h1>
+
+        <form method="post">
+            <textarea name="texto" rows="8"
+            placeholder="Escribe una frase por línea..."></textarea>
+            <button type="submit">Analizar mi día</button>
+        </form>
+
+        {% if resultado %}
+        <div class="resultado">
+            <p>Positivas: {{ resultado.positivas }}</p>
+            <p>Negativas: {{ resultado.negativas }}</p>
+            <p>Neutrales: {{ resultado.neutrales }}</p>
+            <h3>{{ resultado.resumen }}</h3>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</body>
+</html>

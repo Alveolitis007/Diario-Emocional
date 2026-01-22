@@ -1,0 +1,15 @@
+positivo;me encanta programar
+positivo;si quiero jugar
+positivo;estoy muy bien
+positivo;python es genial
+positivo;me siento feliz aprendiendo
+negativo;odio estudiar para exámenes
+negativo;no me apetece terminar el brocoli
+negativo;esto es horrible
+negativo;me siento muy triste
+negativo;hoy estoy mal
+neutral;es por la mañana
+neutral;tengo partido de futbol
+neutral;ahi hay una estanteria
+neutral;tengo que comer
+neutral;voy a trabajar
